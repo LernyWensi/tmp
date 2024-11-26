@@ -1,4 +1,4 @@
-import ReactPDF, {
+import {
     Text,
     Document,
     Page,
