@@ -21,7 +21,7 @@ const S = StyleSheet.create({
 
 const PDF = (): React.ReactNode => {
     return (
-        <Document style={{ backgroundColor: 'blue' }}>
+        <Document pageMode='useThumbs' style={{ backgroundColor: 'blue' }}>
             <Page size='A4' style={S.page}>
                 <View style={S.section}>
                     <Text>Sections #1</Text>
