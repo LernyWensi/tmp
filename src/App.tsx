@@ -41,7 +41,7 @@ const App = (): React.ReactNode => {
     return (
         <>
             <Editor className='shrink-0 basis-1/2' />
-            <div className='shrink-0 basis-1/2 bg-blue-100'>
+            <div className='shrink-0 basis-1/2 bg-blue-200'>
                 <PDFViewer style={{ height: '100%', width: '100%' }}>
                     <PDF />
                 </PDFViewer>
